@@ -1,6 +1,6 @@
 from urllib.parse import urlparse
 from flask import Flask, request, redirect, url_for, render_template
-from scrapers.scraper import scrape_listing 
+from scrapers.rea_scraper import scrape_listing 
 
 from flask_sqlalchemy import SQLAlchemy
 
